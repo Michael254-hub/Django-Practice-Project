@@ -11,3 +11,5 @@ def blog(request):
     return render(request,'blog.html')
 def services(request):
     return render(request,'services.html')
+def base(request):
+    return render(request,'base.html')

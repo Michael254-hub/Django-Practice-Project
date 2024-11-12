@@ -1,22 +1,5 @@
-{% load static %}
-<!doctype html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Django Learning</title>
-</head>
-<body>
-<h1>Django Learning</h1>
-<a href="{% url 'my_index' %}">Home</a>
-<a href="{% url 'my_services' %}">Services</a>
-<a href="{% url 'my_about' %}">About Us</a>
-<a href="{% url 'my_contacts' %}">Contact Us</a>
-<a href="{% url 'my_blog' %}">Blog</a>
-<h1>Django Learning</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, architecto culpa delectus dolore ducimus explicabo facilis harum illum, ipsa praesentium reiciendis repellendus, rerum sed sequi soluta sunt ut veniam voluptatem.</p>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% endblock %}
