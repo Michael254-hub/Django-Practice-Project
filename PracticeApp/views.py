@@ -11,5 +11,3 @@ def team(request):
     return render(request,'team.html')
 def service(request):
     return render(request,'service.html')
-def base(request):
-    return render(request,'base.html')
